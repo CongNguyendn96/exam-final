@@ -1,0 +1,48 @@
+.create {
+    &__content {
+        margin-bottom: 10px;
+
+        label {
+            display: inline-block;
+            width: 140px;
+        }
+
+        input {
+            width: 300px;
+            padding: 5px 0;
+            border-radius: 6px;
+        }
+
+    }
+
+    &__date {
+        label {
+            display: inline-block;
+            width: 140px;
+        }
+
+        input {
+            width: 150px;
+            padding: 5px 0;
+            border-radius: 6px;
+            margin-right: 45px;
+            text-transform: uppercase;
+            color: #757575;
+        }
+
+
+        button {
+            width: 100px;
+            padding: 5px 0;
+            border-radius: 6px;
+            background-color: #000;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            opacity: 0.85;
+        }
+    }
+}

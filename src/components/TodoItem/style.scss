@@ -1,0 +1,21 @@
+.item {
+    width: 400px;
+    border-radius: 6px;
+    border: 1px solid #757754;
+    margin: 15px 30px;
+    padding: 0;
+
+    &__one {
+        display: flex;
+        justify-content: space-between;
+
+        &>p {
+            margin: 5px 0;
+        }
+    }
+
+    &>p {
+        text-align: left;
+        margin: 5px 0;
+    }
+}
